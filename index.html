@@ -6,12 +6,13 @@
     <meta name="author" content="Fernanda Granados Monge">
     <meta name="description" content="This is the description of the page that is used by SEO to optimize search 
     results and to provide a summary of the site.">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Landing page</title>
-
 </head>
+
 <body>
     <header>
-        <div>
+        <div id="topInfo">
 
             <nav>
                 <a href="">Pagina principal</a>
@@ -19,14 +20,14 @@
                 <a href="">Empresa</a>
             </nav>
 
-            <div>
+            <div id="phone">
                 <img src="images/phone_enabled_FILL0_wght400_GRAD0_opsz24.png" alt="Telefono">
-                <p>Numero</p>
+                <p>662-XXX-XXXX</p>
             </div>
         </div>
 
-        <div>
-            <img src="images/bookLogo.png" alt="Logo">
+        <div id="Menu">
+            <img id="Logo" src="images/bookLogo.png" alt="Logo">
 
             <nav>
                 <a href="pages/blog.html">Blog</a>
@@ -34,40 +35,46 @@
                 <a href="">Seccion 3</a>
             </nav>
 
-            <a href=""><img src="images/settings_FILL0_wght400_GRAD0_opsz24.png" alt="Configuracion"></a>
-            <a href=""><img src="images/person_FILL0_wght400_GRAD0_opsz24.png" alt="Perfil"></a>
-            <a href=""><img src="images/search_FILL0_wght400_GRAD0_opsz24.png" alt="Buscar"></a>
+            <div>
+                <a href=""><img src="images/settings_FILL0_wght400_GRAD0_opsz24.png" alt="Configuracion"></a>
+                <a href=""><img src="images/person_FILL0_wght400_GRAD0_opsz24.png" alt="Perfil"></a>
+                <a href=""><img src="images/search_FILL0_wght400_GRAD0_opsz24.png" alt="Buscar"></a>
+            </div>
         </div>
 
     </header>
 
     <main>
-        <div>
+        <div id="Carrusel">
             <button>
                 <img src="images/arrow_back_ios_FILL0_wght400_GRAD0_opsz24.png" alt="Izquierda">
             </button>
-            <img src="images/travel.jpg" alt="Carrusel">
+            <img class="Banner" src="images/travel.jpg" alt="Carrusel">
             <button>
                 <img src="images/arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.png" alt="Derecha">
             </button>
         </div>
 
         <section>
-            <h1>Paquetes</h1>
-            <p>Lorem ipsum dolor</p>
+            <div id="Titulo">
+                <h1>Paquetes</h1>
+                <p id="subtitulo">Lorem ipsum dolor</p>
+            </div>
 
-            <article>
-                <h3>Opcion1</h3>
-                <button>Boton1</button>
-            </article>
-            <article>
-                <h3>Opcion2</h3>
-                <button>Boton2</button>
-            </article>
-            <article> 
-                <h3>Opcion3</h3>
-                <button>Boton3</button>
-            </article>
+            <div id="articles">
+                <article>
+                    <h3>Opcion1</h3>
+                    <button>Boton1</button>
+                </article>
+                <article>
+                    <h3>Opcion2</h3>
+                    <button>Boton2</button>
+                </article>
+                <article> 
+                    <h3>Opcion3</h3>
+                    <button>Boton3</button>
+                </article>
+            </div>
         </section>
     </main>
 </body>
