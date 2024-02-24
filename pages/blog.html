@@ -6,22 +6,30 @@
     <meta name="author" content="Fernanda Granados Monge">
     <meta name="description" content="This is the description of the page that is used by SEO to optimize search 
     results and to provide a summary of the site.">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <title>Blog</title>
 </head>
 <body>
-    <header>
-        <section>
-            <a href=""><img src="../images/menu_FILL0_wght400_GRAD0_opsz24.png" alt="Menu"></a>
-            <a href=""><img src="../images/search_FILL0_wght400_GRAD0_opsz24.png" alt="Buscar"></a>
+    <header id="HeaderBlog">
+        <section id="BannerBlog">
+            <div id="IconsBlog">
+                <a href=""><img src="../images/menu_FILL0_wght400_GRAD0_opsz24.png" alt="Menu"></a>
+                <a href=""><img src="../images/search_FILL0_wght400_GRAD0_opsz24.png" alt="Buscar"></a>
+            </div>
 
-            <h1>Blog</h1>
-            <h2>Lorem ipsum</h2>
+            <div id="TitleBlog">
+                <h1>Blog</h1>
+                <h2>Lorem ipsum</h2>
+            </div>
 
-            <a href="https://www.facebook.com/"><img src="../images/facebook-logo.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="Instagram"></a>
+            <div id="SocialsBlog">
+                <a href="https://www.facebook.com/"><img src="../images/facebook-logo.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="Instagram"></a>
+            </div>
         </section>
 
-        <nav>
+        <nav id="MenuBlog">
             <a href="../index.html">Pagina principal</a>
             <a href="">Seccion 2</a>
             <a href="">Seccion 3</a>
@@ -29,24 +37,36 @@
         </nav>
     </header>
     
-    <main>
-        <article>
-            <h2>Articulo 1</h2>
-            <p>Lorem ipsum dolor</p>
-            <img src="../images/reading.jpg" alt="Foto de una chica leyendo">
-        </article>
+    <main id="MainBlog">
+        <div id="ArticlesBlog">
+            <article>
+                <img src="../images/reading.jpg" alt="Foto1">
+                <div>
+                    <h2>Articulo 1</h2>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+            </article>
 
-        <article>
-            <h2>Articulo 2</h2>
-            <p>Lorem ipsum dolor</p>
-            <img src="../images/music.jpg" alt="Foto de una ventana con discos de vinilo">
-        </article>
+            <article>
+                <div>
+                    <h2>Articulo 2</h2>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+                <img src="../images/music.jpg" alt="Foto2">
+            </article>
+        </div>
 
-        <aside>
+        <aside id="BiographyBlog">
             <article>
                 <img src="../images/profilePic.jpg" alt="Foto de perfil">
-                <h2>Perfil</h2>
-                <p>Lorem impsum dolor</p>
+                <div>
+                    <h2>Perfil</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Sed facilisis, neque sit amet euismod lobortis, risus ipsum ultrices purus, ultricies hendrerit nunc risus et urna. 
+                        Morbi sed nunc id sem varius egestas a vitae nunc. 
+                        Nulla ac nulla non turpis ultricies tristique a sed neque. 
+                    </p>
+                </div>
             </article>
         </aside>
     </main>

@@ -2,11 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
-
-h1{
-    font-size: 48px;
+    font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -26,6 +22,7 @@ a:hover{
     justify-content: space-around;
     align-items: center;
     padding: 8px;
+    font-size: 16px;
 }
 
 #topInfo nav{
@@ -40,29 +37,29 @@ a:hover{
 
 #Menu{
     display: flex;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     align-items: center;
+    justify-content:space-between;
     margin:0 0 30px;
     padding: 10px;
+    font-size: 20px;
 }
 
 #Menu nav{
     display: flex;
-    margin-left: 8em;
-    column-gap: 30px; 
+    flex-grow: 0.5;
+    column-gap: 30px;
 }
 
 #Menu div{
     display: flex;
-    position: absolute;
     right: 20px;
     column-gap: 10px;
 }
 
 #Logo{
     margin-left: 3em;
-    
-    width:5%;
+    width:6%;
 }
 
 /*Carrusel*/
@@ -91,11 +88,13 @@ a:hover{
 /*titulo*/
 #Titulo{
     text-align: center;
+    font-size:48px;
 }
 
 #subtitulo{
     margin-top: 10px;
     font-size: 120%;
+    font-size: 24px;
 }
 
 /*secciones con boton*/
@@ -116,6 +115,130 @@ a:hover{
     background-color: rgb(217, 217, 217);
 }
 
-#articles article h3{
-    margin-bottom: 10px;
+#articles article button{ 
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(45,54,72);
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+/*----------------BLOG-----------------*/
+/*Banner*/
+#BannerBlog{
+    display: flex;
+    background-color: rgb(217, 217, 217);
+    justify-content: space-between;
+}
+
+#BannerBlog h1{
+    font-size: 48px;
+}
+
+#BannerBlog p{
+    font-size: 24px;
+}
+
+#IconsBlog{
+    display: flex;
+    flex-direction: row;
+}
+
+#IconsBlog a img{
+    margin:8px;
+}
+
+#TitleBlog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 0;
+}
+
+#SocialsBlog{
+    display: flex;
+    align-items: end;
+    width:100px;
+}
+
+#SocialsBlog a img{
+    max-width: 50%;
+    padding-bottom: 5px;
+}
+
+/*Menu*/
+#HeaderBlog{
+    background-color: rgb(235,235,235);
+    font-size: 20px;
+}
+
+#MenuBlog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0 10% 2%;
+}
+
+/*Articulos*/
+#ArticlesBlog{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+
+#ArticlesBlog article{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+#ArticlesBlog article:first-child{
+    border-bottom: 2px groove;
+}
+
+#ArticlesBlog article img{
+    max-width: 60%;
+    margin: 0 5%;
+}
+
+/*Main*/
+#MainBlog{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2%;
+}
+
+/*Biography*/
+#BiographyBlog{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0;
+    width: 30%;
+}
+
+#BiographyBlog article{
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 3%;
+    background-color: rgb(217,217,217);
+}
+
+#BiographyBlog article div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#BiographyBlog article p{
+    display: flex;
+    padding-top: 5%;
+}
+
+#BiographyBlog article img{
+    max-width: 40%;
+    clip-path: circle();
 }
