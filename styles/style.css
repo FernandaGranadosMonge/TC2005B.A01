@@ -224,21 +224,30 @@ a:hover{
     flex-direction: column;
     align-items: center;
     padding: 0 3%;
-    background-color: rgb(217,217,217);
+    
 }
 
 #BiographyBlog article div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 2;
+    position: relative;
+    background-color: rgb(217,217,217);
+    padding-top: 10%;
 }
 
 #BiographyBlog article p{
     display: flex;
-    padding-top: 5%;
+    padding: 5% 5% 30% 5%;
 }
 
 #BiographyBlog article img{
-    max-width: 40%;
-    clip-path: circle();
+    max-width: 50%;
+    border-radius: 50%;
+    border: 3em solid;
+    z-index: 1;
+    position: relative;
+    top: 6%;
+    border-color:  rgb(217,217,217);
 }
