@@ -224,7 +224,6 @@ a:hover{
     flex-direction: column;
     align-items: center;
     padding: 0 3%;
-    
 }
 
 #BiographyBlog article div{
@@ -281,7 +280,7 @@ a:hover{
     }
 
     .Banner{
-        max-width: 65%;
+        max-width: 80%;
     }
 
     main section{
@@ -323,9 +322,48 @@ a:hover{
         display:flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 4% 0 0;
-        padding: 10px 0;
+        margin: 0 4% 0 4%;
+        padding: 10px 0 0 0;
         line-height: 2;
         background-color: rgb(217, 217, 217);
     }
+
+
+    #BiographyBlog article img{
+        max-width: 40%;
+        border-radius: 50%;
+        border: 2em solid;
+        z-index: 1;
+        position: relative;
+        top: 6%;
+        border-color:  rgb(217,217,217);
+    }
+
+    #ArticlesBlog{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    
+    #MainBlog{
+        display: flex;
+        flex-direction: column;
+        margin: 0 2%;
+    }
+
+    #BiographyBlog{
+        display: flex;
+        justify-content: center;
+        margin: 5% 0;
+        width: 80%;
+    }
+
+    #BiographyBlog article{
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
   }
