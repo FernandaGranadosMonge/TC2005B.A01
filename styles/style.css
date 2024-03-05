@@ -88,12 +88,12 @@ a:hover{
 /*titulo*/
 #Titulo{
     text-align: center;
-    font-size:48px;
+    font-size: 48px;
 }
 
 #subtitulo{
     margin-top: 10px;
-    font-size: 120%;
+
     font-size: 24px;
 }
 
@@ -251,3 +251,81 @@ a:hover{
     top: 6%;
     border-color:  rgb(217,217,217);
 }
+
+@media (max-width: 599px){ /*celulares*/
+    a, h3{
+        font-size: 0.9rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    #subtitulo{
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+    
+    main{
+      display: flex;
+      flex-flow: column;
+      margin: 10px;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+    }
+
+    #phone{
+        width: 80%;
+        justify-content: end;
+    }
+
+    .Banner{
+        max-width: 65%;
+    }
+
+    main section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #topInfo nav{
+        display:flex;
+        column-gap: 15px;
+        align-items: center;
+    }
+
+    #Carrusel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Logo{
+        margin-left: 1rem;
+        width:8%;
+        justify-content: start;
+    }
+
+    #Menu nav{
+        display: flex;
+        flex-grow: 0.5;
+        column-gap: 15px;
+    }
+
+    #articles{
+        display: flex;
+        justify-content:space-around;
+        margin: 20px 32px 
+    }
+
+    #articles article{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 4% 0 0;
+        padding: 10px 0;
+        line-height: 2;
+        background-color: rgb(217, 217, 217);
+    }
+  }
